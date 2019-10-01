@@ -3,8 +3,10 @@ section{
 }
 
 article {
-    width: 70ch;
+    padding-left: 5%;
+    padding-right: 5%;
     margin: auto;
+    max-width: 75ch;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
     font-size: 20px;
