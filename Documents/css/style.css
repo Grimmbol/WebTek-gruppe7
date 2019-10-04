@@ -1,5 +1,5 @@
 section{
-    border-top: 2px solid black;
+    padding-top: 10px;
 }
 
 article {
@@ -15,10 +15,6 @@ article {
 
 #navigasjon_struktur {
     width: 100%;
-    /* display: block;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: auto; */
 }
 
 th{
