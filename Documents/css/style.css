@@ -34,3 +34,7 @@ table{
     padding: 2px;
     border: 2px solid black;
 }
+
+h2{
+    border-bottom: 2px solid black;
+} 
