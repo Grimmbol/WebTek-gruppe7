@@ -1,0 +1,18 @@
+P2 møte:
+
+Figma, anbefalt program for å lage sketch av nettsiden.
+
+Trenger ikke lage for mobil, trenger ikke skalere ned til mobil engang. Bare til desktop og med skalering på desktop.
+
+P3 og p4 skal leveres samtidig:
+P4 burde sette av ca. En uke.
+
+Bruk javascript til å hente menybaren øverst til hver side, og ikke lag den på nytt i hver html.
+
+Husk å lever filer og link, ikke bare link.
+
+Ingen krav til teks og teksstørelse, må bare se fint ut.
+
+4 java element. Mest for å få oss til å bruke javascript, men ikke alt for basic ting som skulle blitt løst i html eller css.
+
+Søk opp fag og finn eksempler på andre nettsider som folk har laget i faget for inspirasjon.
