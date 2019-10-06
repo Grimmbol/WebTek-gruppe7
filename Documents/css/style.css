@@ -1,5 +1,5 @@
 section{
-    border-top: 2px solid black;
+    padding-top: 10px;
 }
 
 body {
@@ -7,14 +7,18 @@ body {
 }
 
 article {
-    padding-left: 5%;
-    padding-right: 5%;
     margin: auto;
     max-width: 75ch;
+    /* max-width: 75ch; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
     font-size: 20px;
     color: #323232;
+}
+@media only screen and (max-width: 131ch) {
+    article {
+        margin: 0 3%;
+    }
 }
 
 img#hovedside {
@@ -39,9 +43,25 @@ img#bli-med {
 }
 
 #navigasjon_struktur {
-    /* margin: auto; */
-    /* display: block;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: auto; */
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+th{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+td{
+    border: 1px solid black;
+}
+
+table{
+    padding: 2px;
+    border: 2px solid black;
+}
+
+h2{
+    border-bottom: 2px solid black;
 }
