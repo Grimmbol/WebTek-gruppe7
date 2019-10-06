@@ -17,33 +17,9 @@ article {
 }
 
 .mockup {
-    
-}
-
-img#hovedside {
-  width: 750px;
-  border: solid;
-}
-
-img#historie {
-  width: 750px;
-  border: solid;
-}
-
-img#galleri {
-  width: 750px;
-  border: solid;
-}
-
-img#bli-med {
-  margin: auto;
-  width: 750px;
-  border: solid;
-}
-img#generellmockup {
-  margin: auto;
-  width: 750px;
-  border: solid;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
 
 #navigasjon_struktur {
