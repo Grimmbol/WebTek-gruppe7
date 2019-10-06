@@ -2,6 +2,10 @@ section{
     padding-top: 10px;
 }
 
+body {
+      background-color: #EDEDED;
+}
+
 article {
     margin: auto;
     max-width: 75ch;
@@ -15,6 +19,27 @@ article {
     article {
         margin: 0 3%;
     }
+}
+
+img#hovedside {
+  width: 750px;
+  border: solid;
+}
+
+img#historie {
+  width: 750px;
+  border: solid;
+}
+
+img#galleri {
+  width: 750px;
+  border: solid;
+}
+
+img#bli-med {
+  margin: auto;
+  width: 750px;
+  border: solid;
 }
 
 #navigasjon_struktur {
@@ -40,4 +65,4 @@ table{
 
 h2{
     border-bottom: 2px solid black;
-} 
+}

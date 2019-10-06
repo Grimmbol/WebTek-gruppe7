@@ -72,7 +72,8 @@
       </p>
 
       <h2>Innhold</h2>
-      <h3>Hovedisde</h3>
+      <h3>Hovedside</h3>
+      <img id="hovedside" src="../Mock-ups/Hovedside.png" alt="Hovedside">
       <p>Hovedsiden skal være delt i fire deler. Hver av dem skal kunne nås fra den forrige ved å trykke på en pil
         som ligger under den aktuelle delens innhold eller ved scrolling. Grunnen til at hovedsiden er strukturert slik
         er for å gi potensielle kunder en kort og konsis, men samtidig apetittvekkende presentasjon av spillemannslaget.
@@ -115,18 +116,18 @@
       </ol>
 
       <h3>Om oss</h3>
-      <p>Her finner kunden utfyllende informasjon om hvem Snaustrinda er og spillemannslagets historie. For å gjøre
-        teksten
+      <img id="historie" src="../Mock-ups/Historie.png" alt="Historie">
+      <p>Her finner kunden utfyllende informasjon om hvem Snaustrinda er og spillemannslagets historie. For å gjøre teksten
         mer levende skal det også veves inn bilder som underbygger det som fortelles.
       </p>
       <h3>Bli med!</h3>
-      <p>Hvis noen har sett Snaustrinda opptre og tenkt for seg selv at de gjerne vil bli med på morroa, så er dette
-        siden
-        for dem. Her kan de lese om hva som kreves for å bli medlem og de kan ta kontakt via et kontaktskjema. Selve
-        kontaktskjemaet
+      <img id="bli-med" src="../Mock-ups/Bli-med.png" alt="Bli-med">
+      <p>Hvis noen har sett Snaustrinda opptre og tenkt for seg selv at de gjerne vil bli med på morroa, så er dette siden
+        for dem. Her kan de lese om hva som kreves for å bli medlem og de kan ta kontakt via et kontaktskjema. Selve kontaktskjemaet
         er det samme som brukes for bookingen. Dette for å gi nettisden et helhetlig inntrykk.
       </p>
       <h3>Galleri</h3>
+      <img id="galleri" src="../Mock-ups/Galleri.png" alt="Galleri">
       <p>Denne siden skal inneholde et galleri. Bildene skal vises i et rutenett med lav oppløsning. Når man trykker
         på et bilde, forstørres det med bedre oppløsning og bakgrunnen blir uskarp. Deretter kan man bla videre eller
         gå tilbake til den opprinnelige visningen.</p>
@@ -245,8 +246,14 @@
 
 
         </table>
-        <h2>Filstruktur:</h2>
-        <p>
+        <h2>Filstruktur</h2>
+      <p>
+        <ul>
+          <li>hovedside.html</li>
+          <li>om_oss.html</li>
+          <li>bli_med.html</li>
+          <li>galleri.html</li>
+          <li>bilder/
           <ul>
             <li>hovedside.html</li>
             <li>om_oss.html</li>
@@ -294,6 +301,31 @@
             </li>
             <li>style.css</li>
           </ul>
+          </li>
+          <li>video/
+            <ul>
+              <li>video.mp4</li>
+            </ul>
+          </li>
+          <li>musikk/
+            <ul>
+              <li>sang.mp3</li>
+              <li>sang2.mp3</li>
+              <li>...</li>
+            </ul>
+          </li>
+          <li>script/
+            <ul>
+              <li>navbar.js?</li>
+              <li>footer.js?</li>
+              <li>slideshow.js</li>
+              <li>booking.js</li>
+              <li>pil.js</li>
+              <li>galleri.js</li>
+            </ul>
+          </li>
+          <li>style.css</li>
+        </ul>
 
 
 
