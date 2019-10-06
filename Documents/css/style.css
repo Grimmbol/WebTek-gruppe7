@@ -2,6 +2,10 @@ section{
     border-top: 2px solid black;
 }
 
+body {
+      background-color: #EDEDED;
+}
+
 article {
     padding-left: 5%;
     padding-right: 5%;
@@ -11,6 +15,27 @@ article {
     line-height: 1.5;
     font-size: 20px;
     color: #323232;
+}
+
+img#hovedside {
+  width: 750px;
+  border: solid;
+}
+
+img#historie {
+  width: 750px;
+  border: solid;
+}
+
+img#galleri {
+  width: 750px;
+  border: solid;
+}
+
+img#bli-med {
+  margin: auto;
+  width: 750px;
+  border: solid;
 }
 
 #navigasjon_struktur {
