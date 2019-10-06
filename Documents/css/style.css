@@ -37,6 +37,11 @@ img#bli-med {
   width: 750px;
   border: solid;
 }
+img#generellmockup {
+  margin: auto;
+  width: 750px;
+  border: solid;
+}
 
 #navigasjon_struktur {
     display: block;
