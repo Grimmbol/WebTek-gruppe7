@@ -115,12 +115,15 @@
       </ol>
 
       <h3>Om oss</h3>
-      <p>Her finner kunden utfyllende informasjon om hvem Snaustrinda er og spillemannslagets historie. For å gjøre teksten
+      <p>Her finner kunden utfyllende informasjon om hvem Snaustrinda er og spillemannslagets historie. For å gjøre
+        teksten
         mer levende skal det også veves inn bilder som underbygger det som fortelles.
       </p>
       <h3>Bli med!</h3>
-      <p>Hvis noen har sett Snaustrinda opptre og tenkt for seg selv at de gjerne vil bli med på morroa, så er dette siden
-        for dem. Her kan de lese om hva som kreves for å bli medlem og de kan ta kontakt via et kontaktskjema. Selve kontaktskjemaet
+      <p>Hvis noen har sett Snaustrinda opptre og tenkt for seg selv at de gjerne vil bli med på morroa, så er dette
+        siden
+        for dem. Her kan de lese om hva som kreves for å bli medlem og de kan ta kontakt via et kontaktskjema. Selve
+        kontaktskjemaet
         er det samme som brukes for bookingen. Dette for å gi nettisden et helhetlig inntrykk.
       </p>
       <h3>Galleri</h3>
@@ -134,7 +137,8 @@
         Bookingen skal gjøres via et kontaktskjema som skal valideres med JavaScript.
         Mellom hver del av hovedsiden skal det være en pil som scroller til neste del når man trykker den.
         I galleriet skal det være en funksjon som forstørrer det bildet man trykker på, og lar deg bla mellom dem.
-        Vi tar ansvar for en funksjon hver, men hjelper hverandre siden det er sannsynlig at arbeidsmengden er forskjellig.
+        Vi tar ansvar for en funksjon hver, men hjelper hverandre siden det er sannsynlig at arbeidsmengden er
+        forskjellig.
       </p>
 
       <h3>Plan</h3>
@@ -143,79 +147,155 @@
 
         <table>
           <thead>
-              <tr>
-                  <th>Fil(er)</th>
-                  <th>Beskrivelse</th>
-                  <th>Hovedansvarlig</th>
-                  <th>Frist</th>
-                </tr>
+            <tr>
+              <th>Fil(er)</th>
+              <th>Beskrivelse</th>
+              <th>Hovedansvarlig</th>
+              <th>Frist</th>
+            </tr>
           </thead>
           <tbody>
+            <tr>
+              <td>hovedside.html</td>
+              <td>Nettsidens hovedside</td>
+              <td>Thomas</td>
+              <td>20. oktober</td>
+            </tr>
+            <tr>
+              <td>header.html</td>
+              <td>Felles header for <br> alle sider</td>
+              <td>Marit</td>
+              <td>20. oktober</td>
+            </tr>
+            <tr>
+              <td>footer.html</td>
+              <td>Felles footer for <br> alle sider</td>
+              <td>Marit</td>
+              <td>20. oktober</td>
+            </tr>
+            <td>om_oss.html</td>
+            <td>Info om Snaustrinda <br> og historie med bilder</td>
+            <td>Ulrik</td>
+            <td>20. oktober</td>
+            <tr>
+              <td>bli_med.html</td>
+              <td>Side for de som vil bli <br> medlemmer av Snaustrinda</td>
+              <td>Simon</td>
+              <td>20. oktober</td>
+            </tr>
+            <tr>
+              <td>galleri.html</td>
+              <td>Bildegalleri</td>
+              <td>Kristian</td>
+              <td>20. oktober</td>
+            </tr>
+            <tr>
+              <td>style.css</td>
+              <td>Felles CSS-fil for alle sider</td>
+              <td>Alle</td>
+              <td>20. oktober</td>
+            </tr>
+            <tr>
+              <td>Bilder (alle)</td>
+              <td>Bilder av Snaustrinda</td>
+              <td>Thomas</td>
+              <td>13. oktober</td>
+            </tr>
+            <tr>
+              <td>Video (alle)</td>
+              <td>Video av Snaustrinda</td>
+              <td>Thomas</td>
+              <td>13. oktober</td>
+            </tr>
+            <tr>
+              <td>pil.js</td>
+              <td>Hovedsidens pil (se over)</td>
+              <td>Urlik</td>
+              <td>27. oktober</td>
+            </tr>
+            <tr>
+              <td>galleri.js</td>
+              <td>Visningsfunksjon i galleri</td>
+              <td>Kristian</td>
+              <td>27. oktober</td>
+            </tr>
+            <tr>
+              <td>slideshow.js</td>
+              <td>Slideshow på hovedside (bilder)</td>
+              <td>Thomas</td>
+              <td>27. oktober</td>
+            </tr>
+            <tr>
+              <td>booking.js</td>
+              <td>Validering av kontaktinfo <br> og knappefunksjoner</td>
+              <td>Simon</td>
+              <td>27. oktober</td>
+            </tr>
+            <tr>
+              <td>navbar.js</td>
+              <td>Navigasjonsbar</td>
+              <td>Marit</td>
+              <td>27. oktober</td>
+            </tr>
+
+
 
           </tbody>
-          
+
 
 
         </table>
         <h2>Filstruktur:</h2>
-      <p>
-        <ul>
-          <li>hovedside.html</li>
-          <li>om_oss.html</li>
-          <li>bli_med.html</li>
-          <li>galleri.html</li>
-          <li>bilder/
+        <p>
           <ul>
-            <li>galleri/
+            <li>hovedside.html</li>
+            <li>om_oss.html</li>
+            <li>bli_med.html</li>
+            <li>galleri.html</li>
+            <li>bilder/
               <ul>
-                <li>highres/
+                <li>galleri/
                   <ul>
-                    <li>bilde.jpg</li>
-                    <li>bilde2.jpg</li>
-                    <li>...</li>
+                    <li>highres/
+                      <ul>
+                        <li>bilde.jpg</li>
+                        <li>bilde2.jpg</li>
+                        <li>...</li>
+                      </ul>
+                    </li>
+                    <li>lowres/
+                      <ul>
+                        <li>bilde.jpg</li>
+                        <li>bilde2.jpg</li>
+                        <li>...</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
-                <li>lowres/
-                  <ul>
-                    <li>bilde.jpg</li>
-                    <li>bilde2.jpg</li>
-                    <li>...</li>
-                  </ul>
-                </li>
+                <li>logo.png</li>
+                <li>slideshow1.jpg</li>
+                <li>slideshow2.jpg</li>
+                <li>slideshow3.jpg</li>
               </ul>
             </li>
-            <li>logo.png</li>
-            <li>slideshow1.jpg</li>
-            <li>slideshow2.jpg</li>
-            <li>slideshow3.jpg</li>
+            <li>video/
+              <ul>
+                <li>video.mp4</li>
+              </ul>
+            </li>
+            <li>script/
+              <ul>
+                <li>navbar.js</li>
+                <li>slideshow.js</li>
+                <li>booking.js</li>
+                <li>pil.js</li>
+                <li>galleri.js</li>
+              </ul>
+            </li>
+            <li>style.css</li>
           </ul>
-          </li>
-          <li>video/
-            <ul>
-              <li>video.mp4</li>
-            </ul>
-          </li>
-          <li>musikk/
-            <ul>
-              <li>sang.mp3</li>
-              <li>sang2.mp3</li>
-              <li>...</li>
-            </ul>
-          </li>
-          <li>script/
-            <ul>
-              <li>navbar.js?</li>
-              <li>footer.js?</li>
-              <li>slideshow.js</li>
-              <li>booking.js</li>
-              <li>pil.js</li>
-              <li>galleri.js</li>
-            </ul>
-          </li>
-          <li>style.css</li>
-        </ul>
 
-        
+
 
     </section>
   </article>
