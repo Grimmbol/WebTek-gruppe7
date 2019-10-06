@@ -41,6 +41,11 @@
         Denne er ikke tegnet inn på kartet under siden den bare skal automatisk scrolle ned til bookingen.
         Hvis man er på en annen side en hjemmesiden vil man først bli dirigert til hjemmesiden,
         for så å bli scrollet ned.
+      <p>
+        Bookingen er den viktigste delen av siden, så brukeren har mange muligheter til å finne fram til den.
+        Enten ved å følge hovedsiden til bunnen, gå dit direkte ved hjelp av en link i navigasjonsbaren
+        eller fra bunnen av hvilken som helst side gjennom link i footeren.
+      </p>
       </p>
       <p>
         I tillegg skal vi ha en link til internsiden til Snaustrinda som skal være på footeren på alle websidene.
@@ -71,7 +76,7 @@
 
       <h2>Innhold</h2>
       <h3>Hovedside</h3>
-      <img id="hovedside" src="../Mock-ups/Hovedside.png" alt="Hovedside">
+      <img id="hovedside" class="mockup" src="../Mock-ups/Hovedside.png" alt="Hovedside">
       <p>Hovedsiden skal være delt i fire deler. Hver av dem skal kunne nås fra den forrige ved å trykke på en pil
         som ligger under den aktuelle delens innhold eller ved scrolling. Grunnen til at hovedsiden er strukturert slik
         er for å gi potensielle kunder en kort og konsis, men samtidig apetittvekkende presentasjon av spillemannslaget.
@@ -133,16 +138,29 @@
       </p>
 
       <h2>JavaScript</h2>
-      <p>Siden skal ha en JavaScript-funksjon som kaller navigasjonsbaren og footeren på hver side.
-        På forsiden skal vi ha et bilde-slideshow som blar gjennom bildene, og indikerer hvilket bilde som vises.
-        Bookingen skal gjøres via et kontaktskjema som skal valideres med JavaScript.
-        Mellom hver del av hovedsiden skal det være en pil som scroller til neste del når man trykker den.
-        I galleriet skal det være en funksjon som forstørrer det bildet man trykker på, og lar deg bla mellom dem.
+      <p>
+        <ul>
+          <li>
+            Siden skal ha et JavaScript som kaller navigasjonsbaren og footeren på hver side.
+          </li>
+          <li>
+            På forsiden skal vi ha et bilde-slideshow som blar gjennom bildene, og indikerer hvilket bilde som vises.
+          </li>
+          <li>
+            Bookingen skal gjøres via et kontaktskjema som skal valideres med JavaScript.
+          </li>
+          <li>
+            Mellom hver del av hovedsiden skal det være en pil som scroller til neste del når man trykker den.
+          </li>
+          <li>
+            I galleriet skal det være en funksjon som forstørrer det bildet man trykker på, og lar deg bla mellom dem.
+          </li>
+        </ul>
         Vi tar ansvar for en funksjon hver, men hjelper hverandre siden det er sannsynlig at arbeidsmengden er
         forskjellig.
       </p>
 
-      <h3>Plan</h3>
+      <h2>Plan</h2>
 
       <p>Vi har planlagt å organisere arbeidet slik:
 
@@ -174,12 +192,14 @@
               <td>Marit</td>
               <td>20. oktober</td>
             </tr>
-            <td>om_oss.html</td>
-            <td>Info om Snaustrinda <br> og historie med bilder</td>
-            <td>Ulrik</td>
-            <td>20. oktober</td>
             <tr>
-              <td>bli_med.html</td>
+              <td>omOss.html</td>
+              <td>Info om Snaustrinda <br> og historie med bilder</td>
+              <td>Ulrik</td>
+              <td>20. oktober</td>
+            </tr>
+            <tr>
+              <td>bliMed.html</td>
               <td>Side for de som vil bli <br> medlemmer av Snaustrinda</td>
               <td>Simon</td>
               <td>20. oktober</td>
@@ -247,11 +267,13 @@
           <li>hovedside.html</li>
           <li>header.html</li>
           <li>footer.html</li>
-          <li>om_oss.html</li>
-          <li>bli_med.html</li>
+          <li>omOss.html</li>
+          <li>bliMed.html</li>
           <li>galleri.html</li>
           <li>bilder/
             <ul>
+              <li>historie.jpg</li>
+              <li>omOss.jpg</li>
               <li>galleri/
                 <ul>
                   <li>highres/
@@ -282,11 +304,22 @@
                   <li>slideshow3.jpg</li>
                 </ul>
               </li>
+              <li>buttons/
+                <ul>
+                  <li>meny.gif</li>
+                  <li>pil.gif</li>
+                  <li>facebook.gif</li>
+                  <li>instagram.gif</li>
+                  <li>youtube.gif</li>
+                </ul>
+              </li>
             </ul>
           </li>
           <li>video/
             <ul>
               <li>video.mp4</li>
+              <li>video.ogg</li>
+              <li>video.webm</li>
             </ul>
           </li>
           <li>script/
