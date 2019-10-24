@@ -85,8 +85,8 @@ nav a:hover{
 footer{
   background-color: #222222;
   color: white;
-  /* position: relative; */
-  position: absolute;
+  position: relative;
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   line-height: 2em;
@@ -112,4 +112,8 @@ footer a:hover{
 }
 #sosialMedia a{
 margin-left: 16px;
+}
+
+#historie {
+  margin: 0 20%
 }
