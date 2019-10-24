@@ -78,6 +78,9 @@ nav a:hover{
 #menyikon:hover #meny{
   display: block;
 }
+#menyikon{
+  margin-right: 0;
+}
 
 
 footer{
