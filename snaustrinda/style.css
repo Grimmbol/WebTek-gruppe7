@@ -111,9 +111,15 @@ footer a:hover{
   color: #FF394D;
 }
 #sosialMedia a{
-margin-left: 16px;
+  margin-left: 16px;
 }
 
 #historie {
   margin: 0 20%
+}
+
+#omOss1 {
+  width: 40%;
+  float: right;
+  padding: 20px 20px;
 }
