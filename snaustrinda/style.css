@@ -130,7 +130,6 @@ margin-left: 16px;
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -138,6 +137,7 @@ margin-left: 16px;
 /* Hide the images by default */
 .mySlides {
   display: none;
+  margin-top: 0;
 }
 
 /* Next & previous buttons */
@@ -167,16 +167,6 @@ margin-left: 16px;
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
 /* The dots/bullets/indicators */
 .dot {
