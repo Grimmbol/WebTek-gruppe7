@@ -13,3 +13,13 @@ ikon.addEventListener('click', function(){
   open = true
   }
 })
+
+// fjern hvis det klikkes uterfor menyen
+window.onclick = function(e) {
+  if (!e.target.closest('#menyikon')) {
+    if (open){
+      meny.style.display = null
+      open = false
+    }
+  }
+}
