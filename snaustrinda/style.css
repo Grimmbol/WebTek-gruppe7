@@ -112,9 +112,9 @@ footer a:hover{
 margin-left: 16px;
 }
 
-#historie {
+/* #historie {
   margin: 0 20%
-}
+} */
 
 /* Thomas sin css */
 
@@ -167,6 +167,19 @@ margin-left: 16px;
   background-color: rgba(0,0,0,0.8);
 }
 
+<<<<<<< HEAD
+=======
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 0 12px 0;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+>>>>>>> 54b6893defe9965aa75abb65e24747ede765177e
 
 /* The dots/bullets/indicators */
 .dot {
@@ -242,6 +255,9 @@ h1 {
 #video {
   margin: auto;
 }
+video{
+  max-width: 100%;
+}
 
 #spotify {
   margin-right: 10%;
@@ -251,12 +267,16 @@ h1 {
 .forms {
   display: block;
   background-color: #ff4d4d;
-  border: solid;
+  border: solid #222222;
+  padding: 15px;
 }
 
 .form {
   margin-left: 10%;
   margin-right: auto;
+}
+textarea{
+  max-width: 80%;
 }
 
 #send {
@@ -266,3 +286,12 @@ h1 {
 #send:hover {
   cursor: pointer;
 }
+
+
+/* Simons CSS */
+#bliMedTekst {
+  margin: auto 10%;
+}
+
+/* Kristians galleri-css */
+
