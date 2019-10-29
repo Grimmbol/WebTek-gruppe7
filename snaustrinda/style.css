@@ -283,3 +283,9 @@ textarea{
 #send:hover {
   cursor: pointer;
 }
+
+
+/* Simons CSS */
+#bliMedTekst {
+  margin: auto 10%;
+}
