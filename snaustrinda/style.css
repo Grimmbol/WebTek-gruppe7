@@ -126,8 +126,6 @@ margin-left: 16px;
   border: solid;
 }
 
-
-
 /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -247,7 +245,7 @@ video{
 }
 
 #spotify {
-  margin-right: 10%;
+  margin-right: 5%;
   float: right;
 }
 
@@ -274,7 +272,23 @@ textarea{
 #send:hover {
   cursor: pointer;
 }
+#sePåOss {
+  text-align: center;
+  padding: 10%;
+}
 
+#arrangement {
+  text-align: left;
+  float: left;;
+  width: 400px;
+  border:  solid;
+}
+
+#arrangement th {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid;
+}
 
 /* Simons CSS */
 #bliMedTekst {
@@ -348,7 +362,7 @@ textarea{
   right: 35px;
   color: black;
   font-size: 40px;
-  user-select: none; 
+  user-select: none;
 }
 
 #prev-galleri{
