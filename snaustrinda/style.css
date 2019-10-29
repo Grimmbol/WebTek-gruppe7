@@ -136,6 +136,8 @@ margin-left: 16px;
 .mySlides {
   display: none;
   margin-top: 0;
+  position: relative;
+  top: -15px;
 }
 
 /* Next & previous buttons */
@@ -237,7 +239,8 @@ h1 {
   height: 700px;
 }
 
-#video {
+.video {
+  cursor: pointer;
   margin: auto;
 }
 video{
