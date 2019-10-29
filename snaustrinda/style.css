@@ -41,6 +41,9 @@ nav a{
 nav a:hover{
   border-bottom: 4px solid #FF394D;
 }
+nav .aktiv{
+  border-bottom: 1px solid #FF394D;
+}
 #hjem:hover{
   border-bottom: 0;
 }
@@ -80,6 +83,7 @@ nav a:hover{
 }
 #menyikon{
   margin-right: 0;
+  margin-left: 20px;
 }
 
 
