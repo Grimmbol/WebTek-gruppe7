@@ -130,7 +130,6 @@ margin-left: 16px;
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -138,6 +137,7 @@ margin-left: 16px;
 /* Hide the images by default */
 .mySlides {
   display: none;
+  margin-top: 0;
 }
 
 /* Next & previous buttons */
@@ -167,6 +167,8 @@ margin-left: 16px;
   background-color: rgba(0,0,0,0.8);
 }
 
+<<<<<<< HEAD
+=======
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -177,6 +179,7 @@ margin-left: 16px;
   width: 100%;
   text-align: center;
 }
+>>>>>>> 54b6893defe9965aa75abb65e24747ede765177e
 
 /* The dots/bullets/indicators */
 .dot {
@@ -272,6 +275,7 @@ video{
   margin-left: 10%;
   margin-right: auto;
 }
+
 textarea{
   max-width: 80%;
 }
@@ -292,3 +296,74 @@ textarea{
 
 /* Kristians galleri-css */
 
+
+#gallery{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.image{
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+}
+
+.image > img{
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.image > img:hover{
+  opacity: 0.7;
+}
+
+#modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  padding-top: 150px;
+  width: 100%;
+  height: 100%;
+  /*background-color: black;*/
+}
+
+#modal-content{
+  position: absolute;
+  margin: auto;
+  width: 100%;
+}
+
+#close-galleri{
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  user-select: none;
+}
+
+.modal-image > img{
+  display: block;
+  margin: auto;
+}
+
+#next-galleri, #prev-galleri{
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  right: 35px;
+  color: black;
+  font-size: 40px;
+  user-select: none; 
+}
+
+#prev-galleri{
+  left: 35px;
+}
