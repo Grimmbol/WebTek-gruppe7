@@ -41,6 +41,9 @@ nav a{
 nav a:hover{
   border-bottom: 4px solid #FF394D;
 }
+nav .aktiv{
+  border-bottom: 1px solid #FF394D;
+}
 #hjem:hover{
   border-bottom: 0;
 }
@@ -80,6 +83,7 @@ nav a:hover{
 }
 #menyikon{
   margin-right: 0;
+  margin-left: 20px;
 }
 
 
@@ -126,8 +130,6 @@ margin-left: 16px;
   border: solid;
 }
 
-
-
 /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -138,6 +140,8 @@ margin-left: 16px;
 .mySlides {
   display: none;
   margin-top: 0;
+  position: relative;
+  top: -15px;
 }
 
 /* Next & previous buttons */
@@ -239,7 +243,8 @@ h1 {
   height: 700px;
 }
 
-#video {
+.video {
+  cursor: pointer;
   margin: auto;
 }
 video{
@@ -247,7 +252,7 @@ video{
 }
 
 #spotify {
-  margin-right: 10%;
+  margin-right: 5%;
   float: right;
 }
 
@@ -281,6 +286,24 @@ video{
 #send:hover {
   cursor: pointer;
 }
+#sePåOss {
+  text-align: center;
+  padding: 10%;
+}
+
+#arrangement {
+  text-align: left;
+  float: left;;
+  width: 400px;
+  border:  solid;
+}
+
+#arrangement th {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid;
+}
+
 
 /* Kristians galleri-css */
 
