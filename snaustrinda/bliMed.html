@@ -19,14 +19,20 @@
         </p>
     </section>
 
-    <section id="bliMedForm" class="forms">
-        <p class="form">Fult navn<br><input type="text" name="navn" size="15" placeholder="Navn"></p>
-        <p class="form">E-post<br><input type="text" name="epost" size="15" placeholder="din epost@adresse.no"></p>
-        <p class="form" >Telefon<br><input type="text" name="telefon" size="15" placeholder="123 34 567"></p>
-        <p class="form" >Om deg<br><textarea name="melding" rows="8" cols="80" placeholder="Fortell litt om deg selv, hvorfor du søker, om du spiller et instrument ol."></textarea></p>
-        <p><input id="send" type="submit" name="Send" value="submit">
-    </section>
-
+    <form class="forms">
+        <div class="divForms">
+            Fult navn<br>
+            <input type="text" name="navn" placeholder="Ola Nordmann" pattern="^[A-ZÆØÅa-zæøå][A-ZÆØÅa-zæøå\s]*$" onkeydown="return event.key != 'Enter';" required><br>
+            E-post<br>
+            <input type="email" name="epost" placeholder="epost@adresse.no" onkeydown="return event.key != 'Enter';" required><br>
+            Telefon<br>
+            <input type="tel" name="telefon" placeholder="123 34 567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" onkeydown="return event.key != 'Enter';"><br>
+            Om deg<br>
+            <textarea name="melding" rows="8" cols="80" placeholder="Fortell litt om deg selv, hvorfor du søker, om du spiller et instrument ol." required></textarea><br>
+            <input type="submit" value="Send" preventDefault()>
+        </div>
+    </form>
+            
     <script src="script/navbar.js"></script>
     <script language="javascript" type="text/javascript" src="script/footer.js"></script>
 </body>

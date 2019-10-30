@@ -251,34 +251,35 @@ video{
   float: right;
 }
 
+
+
+/* Simons! */
 .forms {
+  font-size: 14px;
+  color: black;
   display: block;
   background-color: #ff4d4d;
-  border: solid #222222;
   padding: 15px;
 }
 
-.form {
-  margin-left: 10%;
-  margin-right: auto;
+.divForms {
+  max-width: 780px;
 }
 
-textarea{
-  max-width: 80%;
+.forms input, textarea {
+  font-size: 16px;
+  -webkit-text-stroke-width: 0px;
+  margin: 5px 0 20px 0;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  max-width: 95%;
 }
+/* Simons slutt! */
 
-#send {
-  margin-left: 10%;
-  margin-right: auto;
-}
+
 #send:hover {
   cursor: pointer;
-}
-
-
-/* Simons CSS */
-#bliMedTekst {
-  margin: auto 10%;
 }
 
 /* Kristians galleri-css */
@@ -348,7 +349,7 @@ textarea{
   right: 35px;
   color: black;
   font-size: 40px;
-  user-select: none; 
+  user-select: none;
 }
 
 #prev-galleri{
