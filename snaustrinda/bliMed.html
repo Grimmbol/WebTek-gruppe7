@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Bli med</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script language="javascript" type="text/javascript" src="script/header.js"></script>
+
+    <section id="bliMed" class="innhold">
+        <h1>Bli med</h1>
+        <p>Skal du bli med i verdens kuleste orkester? Da er Snaustrinda noe for deg!
+            Vi spiller konserter for folk og har et fantastisk sosialt miljø. Bli kjente med våre sprudlende medlemmer,
+            og utfordre deg selv i kunsten av å spille et instrument.
+            Samtidig som du får vist dine nyfunne ferdigheter til et fantastiks publikum.
+        </p>
+    </section>
+
+    <form class="forms">
+        <div class="divForms">
+            Fult navn<br>
+            <input type="text" name="navn" placeholder="Ola Nordmann" pattern="^[A-ZÆØÅa-zæøå][A-ZÆØÅa-zæøå\s]*$" onkeydown="return event.key != 'Enter';" required><br>
+            E-post<br>
+            <input type="email" name="epost" placeholder="epost@adresse.no" onkeydown="return event.key != 'Enter';" required><br>
+            Telefon<br>
+            <input type="tel" name="telefon" placeholder="123 34 567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" onkeydown="return event.key != 'Enter';"><br>
+            Om deg<br>
+            <textarea name="melding" rows="8" cols="80" placeholder="Fortell litt om deg selv, hvorfor du søker, om du spiller et instrument ol." required></textarea><br>
+            <input type="submit" value="Send" preventDefault()>
+        </div>
+    </form>
+            
+    <script src="script/navbar.js"></script>
+    <script language="javascript" type="text/javascript" src="script/footer.js"></script>
+</body>
+
+</html>

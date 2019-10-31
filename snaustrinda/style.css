@@ -41,6 +41,9 @@ nav a{
 nav a:hover{
   border-bottom: 4px solid #FF394D;
 }
+nav .aktiv{
+  border-bottom: 1px solid #FF394D;
+}
 #hjem:hover{
   border-bottom: 0;
 }
@@ -80,6 +83,7 @@ nav a:hover{
 }
 #menyikon{
   margin-right: 0;
+  margin-left: 20px;
 }
 
 
@@ -112,9 +116,9 @@ footer a:hover{
   margin-left: 16px;
 }
 
-#historie {
+/* #historie {
   margin: 0 20%
-}
+} */
 
 <<<<<<< HEAD
 #omOss1 {
@@ -132,11 +136,8 @@ footer a:hover{
   border: solid;
 }
 
-
-
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -144,6 +145,9 @@ footer a:hover{
 /* Hide the images by default */
 .mySlides {
   display: none;
+  margin-top: 0;
+  position: relative;
+  top: -15px;
 }
 
 /* Next & previous buttons */
@@ -173,16 +177,6 @@ footer a:hover{
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -255,31 +249,139 @@ h1 {
   height: 700px;
 }
 
-#video {
+.video {
+  cursor: pointer;
   margin: auto;
+}
+video{
+  max-width: 100%;
 }
 
 #spotify {
-  margin-right: 10%;
+  margin-right: 5%;
   float: right;
 }
 
+
+
+/* Simons! */
 .forms {
+  font-size: 14px;
+  color: black;
   display: block;
   background-color: #ff4d4d;
-  border: solid;
+  padding: 15px;
 }
 
-.form {
-  margin-left: 10%;
-  margin-right: auto;
+.divForms {
+  max-width: 780px;
 }
 
-#send {
-  margin-left: 10%;
-  margin-right: auto;
+.forms input, textarea {
+  font-size: 16px;
+  -webkit-text-stroke-width: 0px;
+  margin: 5px 0 20px 0;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  max-width: 95%;
 }
+/* Simons slutt! */
+
+
 #send:hover {
   cursor: pointer;
 >>>>>>> 043ab944e957a2ba20332463b8d46693e762ec23
+}
+#sePåOss {
+  text-align: center;
+  padding: 10%;
+}
+
+#arrangement {
+  text-align: left;
+  float: left;;
+  width: 400px;
+  border:  solid;
+}
+
+#arrangement th {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid;
+}
+
+
+/* Kristians galleri-css */
+
+
+#gallery{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.image{
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+}
+
+.image > img{
+  display: block;
+  width: 100%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.image > img:hover{
+  opacity: 0.7;
+}
+
+#modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  padding-top: 150px;
+  width: 100%;
+  height: 100%;
+  /*background-color: black;*/
+}
+
+#modal-content{
+  position: absolute;
+  margin: auto;
+  width: 100%;
+}
+
+#close-galleri{
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  user-select: none;
+}
+
+.modal-image > img{
+  display: block;
+  margin: auto;
+}
+
+#next-galleri, #prev-galleri{
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  right: 35px;
+  color: black;
+  font-size: 40px;
+  user-select: none;
+}
+
+#prev-galleri{
+  left: 35px;
 }
