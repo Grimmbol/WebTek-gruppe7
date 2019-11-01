@@ -120,12 +120,11 @@ footer a:hover{
   margin: 0 20%
 } */
 
-<<<<<<< HEAD
 #omOss1 {
   width: 40%;
   float: right;
   padding: 20px 20px;
-=======
+}
 /* Thomas sin css */
 
 #Snaustrinda2017_bilde, #spelemannslag, #mai {
@@ -197,9 +196,9 @@ footer a:hover{
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 3.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 3.5s;
 }
 
 @-webkit-keyframes fade {
@@ -267,10 +266,11 @@ video{
 /* Simons! */
 .forms {
   font-size: 14px;
-  color: black;
+  color: white;
   display: block;
   background-color: #ff4d4d;
   padding: 15px;
+
 }
 
 .divForms {
@@ -285,13 +285,14 @@ video{
   border: 0;
   border-radius: 5px;
   max-width: 95%;
+
 }
 /* Simons slutt! */
 
 
 #send:hover {
   cursor: pointer;
->>>>>>> 043ab944e957a2ba20332463b8d46693e762ec23
+
 }
 #sePåOss {
   text-align: center;
