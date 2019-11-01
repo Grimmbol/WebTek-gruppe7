@@ -142,6 +142,7 @@ footer a:hover{
 .slideshow-container {
   position: relative;
   margin: auto;
+  height:100vh;
 }
 
 /* Hide the images by default */
