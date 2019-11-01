@@ -1,7 +1,7 @@
 body{
   margin: 0;
   min-height: 1vh;
-  font-family: sans-serif;
+  font-family:"Lucida Grande", arial, sans-serif;
   font-size: 16px;
 }
 
@@ -132,6 +132,8 @@ footer a:hover{
 
 #Snaustrinda2017_bilde, #spelemannslag, #mai {
   width: 100%;
+  object-fit: cover;
+  height: 600px;
 }
 
 #bilde_slide{
