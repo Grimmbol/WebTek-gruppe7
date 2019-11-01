@@ -224,15 +224,32 @@ h1 {
 
 
 #om_tekst {
-  padding-top: 10%;
+  padding-top: 2em;
   max-width: 200px;
   display: inline-block;
 }
 
 #logo {
   width: 400px;
-  height: 400px;
+  height: auto;
   float: right;
+  margin-top: -3em;
+}
+@media (max-width: 760px){
+  #om_tekst{
+    display: block;
+    max-width: inherit;
+    padding-bottom: 5%;
+  }
+  .om_snaustrinda h2{
+    text-align: center;
+  }
+  #logo{
+    display: block;
+    float: none;
+    max-width: 90%;
+    margin: auto;
+  }
 }
 
 .se_på_oss {
