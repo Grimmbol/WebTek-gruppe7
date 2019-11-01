@@ -244,6 +244,7 @@ video{
 }
 
 #spotify {
+  margin-left: 1%;
   margin-right: 5%;
   float: right;
 }
@@ -287,6 +288,7 @@ video{
 }
 
 #arrangement {
+  margin-bottom: 1em;
   text-align: left;
   float: left;;
   width: 400px;
