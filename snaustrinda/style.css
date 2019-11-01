@@ -21,6 +21,7 @@ body{
   text-align: right;
 }
 
+/* header */
 header ul, footer ul{
   list-style-type: none;
   padding: 0;
@@ -42,7 +43,7 @@ nav a{
 nav a:hover{
   border-bottom: 4px solid #FF394D;
 }
-nav .aktiv{
+nav .aktiv{ /*siden man er på*/
   border-bottom: 1px solid #FF394D;
 }
 #hjem:hover{
@@ -55,6 +56,7 @@ nav .aktiv{
   float: right;
   padding-bottom: 1em;
 }
+/* dropdown-meny */
 #meny{
   display: none;
   position: absolute;
@@ -87,7 +89,7 @@ nav .aktiv{
   margin-left: 20px;
 }
 
-
+/* footer */
 footer{
   background-color: #222222;
   color: white;
@@ -117,9 +119,7 @@ footer a:hover{
   margin-left: 16px;
 }
 
-/* #historie {
-  margin: 0 20%
-} */
+
 
 #omOss1 {
   width: 40%;
@@ -235,6 +235,7 @@ h1 {
   float: right;
   margin-top: -3em;
 }
+
 @media (max-width: 760px){
   #om_tekst{
     display: block;
@@ -259,18 +260,55 @@ h1 {
 .video {
   cursor: pointer;
   margin: auto;
+  margin-top: 20px;
 }
 video{
   max-width: 100%;
 }
 
+#sePåOss {
+  text-align: center;
+  padding: 5%;
+}
+
 #spotify {
   margin-left: 1%;
-  margin-right: 5%;
   float: right;
 }
 
+#arrangement {
+  text-align: left;
+  float: left;;
+  width: 400px;
+  border: solid;
+  border-collapse: collapse;
+}
 
+@media (max-width: 770px) {
+  #spotify, #arrangement{
+    display: block;
+    float: none;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .se_på_oss{
+    height: auto;
+  }
+}
+
+#arrangement th {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid black;
+  background-color: #ff4d4d;
+  color: white;
+}
+
+#arrangement td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid;
+}
 
 /* Simons! */
 /* forms css */
@@ -297,39 +335,14 @@ video{
   max-width: 95%;
 
 }
-/* Simons slutt! */
 
-
-#send:hover {
+input[type="submit"]:hover {
   cursor: pointer;
 
 }
-#sePåOss {
-  text-align: center;
-  padding: 5%;
-}
+/* Simons slutt! */
 
-#arrangement {
-  text-align: left;
-  float: left;;
-  width: 400px;
-  border: solid;
-  border-collapse: collapse;
-}
 
-#arrangement th {
-  padding: 12px;
-  text-align: left;
-  border: 1px solid black;
-  background-color: #ff4d4d;
-  color: white;
-}
-
-#arrangement td {
-  padding: 12px;
-  text-align: left;
-  border: 1px solid;
-}
 
 
 /* Kristians galleri-css */
