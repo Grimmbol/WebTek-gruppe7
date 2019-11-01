@@ -13,29 +13,29 @@
     </script>
 
 
-      <div class="mySlides fade">
+      <div class="mySlides">
         <img id="Snaustrinda2017_bilde" src="bilder/slide_show/Snaustrinda2017.png" alt="snaustrinda">
       </div>
 
-      <div class="mySlides fade">
+      <div class="mySlides">
         <img id="mai" src="bilder/slide_show/17.mai.jpg" alt="123">
       </div>
 
-      <div class="mySlides fade">
+      <div class="mySlides">
         <img id="spelemannslag" src="bilder/slide_show/Spelemannslag.jpg" alt="234">
       </div>
 
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </section>
-    <br>
+      <!-- <br> -->
+      <div id='dots' style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
 
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+    </section>
 
     <div class="innhold">
 
@@ -88,17 +88,16 @@
 
     </div>
 
-    <section id="booking" class="forms">
+    <form class="forms" id="booking">
       <div class="divForms">
-        <p class="form">epost</p>
-        <input class="form" type="text" name="epost" size="15" placeholder="din epost@adresse.no"/>
-        <p class="form" >telefon</p>
-        <input class="form" type="text" name="telefon" size="15" placeholder="123 34 567">
-        <p class="form" >melding</p>
-        <textarea class="form" name="melding" rows="8" cols="80" placeholder="Fortell litt om hva du er ute etter."></textarea>
-        <p><input id="send" type="submit" name="Send" value="Send"></p>
+        <h1>Booking / spørsmål til oss</h1>
+          Din e-post<br>
+          <input type="email" name="epost" placeholder="epost@adresse.com" onkeydown="return event.key != 'Enter';" required><br>
+          Melding<br>
+          <textarea name="melding" rows="8" cols="80" placeholder="Booking eller andre spørsmål" required></textarea><br>
+          <input type="submit" value="Send">
       </div>
-    </section>
+    </form>
 
     <script src="script/script.js">
 
