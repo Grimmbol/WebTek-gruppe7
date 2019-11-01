@@ -1,7 +1,7 @@
 body{
   margin: 0;
   min-height: 1vh;
-  font-family: sans-serif;
+  font-family:"Lucida Grande", arial, sans-serif;
   font-size: 16px;
 }
 
@@ -142,6 +142,7 @@ footer a:hover{
 .slideshow-container {
   position: relative;
   margin: auto;
+  height:100vh;
 }
 
 /* Hide the images by default */
@@ -195,8 +196,6 @@ footer a:hover{
 .active, .dot:hover {
   background-color: #ff4d4d;
 }
-
-
 
 section {
   margin: auto;
