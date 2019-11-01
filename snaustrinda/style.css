@@ -168,6 +168,11 @@ footer a:hover{
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+#dots {
+  position: relative;
+  bottom: 7%;
+
+}
 
 /* Position the "next button" to the right */
 .next {
@@ -252,6 +257,7 @@ video{
 
 
 /* Simons! */
+/* forms css */
 .forms {
   font-size: 14px;
   color: white;
