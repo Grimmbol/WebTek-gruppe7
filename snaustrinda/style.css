@@ -26,12 +26,15 @@ header ul, footer ul{
 }
 header{
   border-bottom: 2px solid black;
-  height: 5.2em;
+  height: 3.5em;
 }
 header li{
   display: inline;
-  line-height: 3em;
+  line-height: 1em;
   margin: 5px;
+}
+nav img{
+  margin-top: -0.8em;
 }
 nav a{
   color: black;
@@ -57,7 +60,7 @@ nav .aktiv{
 #meny{
   display: none;
   position: absolute;
-  top: 4.5em;
+  top: 3.5em;
   right: -0.5em;
   border: 1px solid black;
   background-color: white;
@@ -75,10 +78,9 @@ nav .aktiv{
   line-height: normal;
 }
 #menyikon > a:hover{
-  padding-bottom: 3em;
   border-bottom:  0;
 }
-#menyikon:hover #meny{
+#menyikon:hover #meny, #meny:hover{
   display: block;
 }
 #menyikon{
