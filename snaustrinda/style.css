@@ -58,7 +58,7 @@ nav .aktiv{
 #meny{
   display: none;
   position: absolute;
-  top: 4.5em;
+  top: 4em;
   right: -0.5em;
   border: 1px solid black;
   background-color: white;
