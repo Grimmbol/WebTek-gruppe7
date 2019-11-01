@@ -56,6 +56,18 @@ nav .aktiv{ /*siden man er på*/
   float: right;
   padding-bottom: 1em;
 }
+#menyikon{
+  margin-right: 0;
+  margin-left: 20px;
+}
+@media (max-width: 340px) {
+  header li{
+    margin: auto;
+  }
+  #menyikon{
+    margin-left: 10px;
+  }
+}
 /* dropdown-meny */
 #meny{
   display: none;
@@ -84,10 +96,6 @@ nav .aktiv{ /*siden man er på*/
 #menyikon:hover #meny{
   display: block;
 }
-#menyikon{
-  margin-right: 0;
-  margin-left: 20px;
-}
 
 /* footer */
 footer{
@@ -104,6 +112,12 @@ footer ul{
   padding-top: 100px;
   width: 50%;
   height: 72px;
+}
+@media (max-width: 326px){
+  footer ul{
+    padding-top: 100px;
+    height: 112px;
+  }
 }
 footer a{
   color: inherit;
@@ -142,7 +156,7 @@ footer a:hover{
 .slideshow-container {
   position: relative;
   margin: auto;
-  height:100vh;
+  /* height:100vh; */
 }
 
 /* Hide the images by default */
@@ -264,6 +278,7 @@ h1 {
 }
 video{
   max-width: 100%;
+  height: auto;
 }
 
 #sePåOss {
@@ -274,6 +289,7 @@ video{
 #spotify {
   margin-left: 1%;
   float: right;
+  max-width: 100%;
 }
 
 #arrangement {
@@ -308,6 +324,31 @@ video{
   padding: 12px;
   text-align: left;
   border: 1px solid;
+}
+
+@media (max-width: 440px){
+  #arrangement{
+    width: auto;
+  }
+  #arrangement th{
+    display: none;
+  }
+  #arrangement th:first-child{
+    display: block;
+    border: none;
+    background-color: #ff4d4d;
+  }
+  #arrangement td{
+    display: inline-block;
+    border: none;
+  }
+  #arrangement tr{
+  border: 1px solid black;
+  }
+  table{
+    border-collapse: collapse;
+    width: 100%;
+  }
 }
 
 /* Simons! */
