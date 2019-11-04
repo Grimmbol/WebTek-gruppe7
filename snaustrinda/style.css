@@ -393,6 +393,9 @@ input[type="submit"]:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  margin-bottom: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .image{

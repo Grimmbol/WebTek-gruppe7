@@ -2,6 +2,9 @@ const modal = document.getElementById("modal");
 const modalImages = document.getElementsByClassName("modal-image");
 const len = modalImages.length;
 const gallery = document.getElementById("gallery");
+const header = document.getElementById("header");
+const galleryHeadline = document.getElementById("gallery-headline");
+const footer = document.getElementById("footer");
 
 var index;
 
@@ -9,11 +12,17 @@ var index;
 function closeModal(){
     modal.style.display = "none";
     gallery.style.filter = "none";
+    header.style.filter = "none";
+    galleryHeadline.style.filter = "none";
+    footer.style.filter = "none";
 }
 
 function openModal(n){
     modal.style.display = "block";
     gallery.style.filter = "blur(20px)";
+    header.style.filter = "blur(20px)";
+    galleryHeadline.style.filter = "blur(20px)";
+    footer.style.filter = "blur(20px)";
     index = n;
 }
 
