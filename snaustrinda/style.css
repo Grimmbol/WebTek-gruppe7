@@ -274,6 +274,10 @@ h1 {
     max-width: inherit;
     padding-bottom: 5%;
   }
+
+  h1 {
+    font-size: 2em;
+  }
   .om_snaustrinda h2{
     text-align: center;
   }
