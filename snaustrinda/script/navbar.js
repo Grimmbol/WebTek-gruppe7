@@ -14,7 +14,7 @@ ikon.addEventListener('click', function(){
 // fjern hvis det klikkes uterfor menyen
 window.onclick = function(e) {
   if (!e.target.closest('#menyikon')) {
-    if (open){
+    if (meny.style.display){
       meny.style.display = null
       open = false
     }
