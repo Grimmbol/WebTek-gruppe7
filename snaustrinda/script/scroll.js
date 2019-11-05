@@ -21,3 +21,9 @@ function scrollDown(target, duration) {
 
   requestAnimationFrame(animation);
 }
+
+
+var section1 = document.querySelector('#section1');
+section1.addEventListener('click', function() {
+  scrollDown('#section2', 1000);
+});
