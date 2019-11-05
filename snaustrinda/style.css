@@ -145,7 +145,7 @@ footer a:hover{
 #Snaustrinda2017_bilde, #spelemannslag, #mai {
   width: 100%;
   object-fit: cover;
-  height: 600px;
+  height: 80vh;
 }
 
 #bilde_slide{
