@@ -163,10 +163,9 @@ footer a:hover, footer a:focus{
 .slideshow-container {
   position: relative;
   margin: auto;
-  /* height:100vh; */
 }
 
-/* Hide the images by default */
+/* skjul bildet som defult */
 .mySlides {
   display: none;
   margin-top: 0;
@@ -174,7 +173,7 @@ footer a:hover, footer a:focus{
   top: -15px;
 }
 
-/* Next & previous buttons */
+/* neste/forrige knapper */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -194,20 +193,23 @@ footer a:hover, footer a:focus{
   bottom: 7%;
 
 }
+.scrollbtn {
+  width: 5%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 3%;
+  padding:0.5%;
+}
 
-/* Position the "next button" to the right */
+/* neste knapp til høyre*/
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-/* The dots/bullets/indicators */
+/* dottene */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -385,6 +387,8 @@ video{
 
 }
 
+
+
 input[type="submit"]:hover {
   cursor: pointer;
 
@@ -429,7 +433,6 @@ input[type="submit"]:hover {
   z-index: 1;
   left: 0;
   top: 0;
-  padding-top: 150px;
   width: 100%;
   height: 100%;
   /*background-color: black;*/
@@ -438,7 +441,11 @@ input[type="submit"]:hover {
 #modal-content{
   position: absolute;
   margin: auto;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -333px;
+
 }
 
 #close-galleri{
@@ -461,12 +468,12 @@ input[type="submit"]:hover {
   position: absolute;
   cursor: pointer;
   top: 50%;
-  right: 35px;
+  right: -35px;
   color: black;
   font-size: 40px;
   user-select: none;
 }
 
 #prev-galleri{
-  left: 35px;
+  left: -35px;
 }
