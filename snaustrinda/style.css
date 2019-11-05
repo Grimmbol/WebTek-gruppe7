@@ -4,6 +4,12 @@ body{
   font-family:"Lucida Grande", arial, sans-serif;
   font-size: 16px;
 }
+a{
+  color: #FF394D;
+}
+a:hover{
+  color: darkred;
+}
 
 
 .innhold{
@@ -40,7 +46,8 @@ nav a{
   text-decoration: none;
   padding: 8px 2px 2px 2px;
 }
-nav a:hover{
+nav a:hover, nav a:focus{
+  color: black;
   border-bottom: 4px solid #FF394D;
 }
 nav .aktiv{ /*siden man er på*/
@@ -125,7 +132,7 @@ footer a{
   padding: 3px 0 3px;
   background-color: inherit;
 }
-footer a:hover{
+footer a:hover, footer a:focus{
   border-bottom: 1px solid #FF394D;
   color: #FF394D;
 }
