@@ -424,7 +424,6 @@ input[type="submit"]:hover {
   z-index: 1;
   left: 0;
   top: 0;
-  padding-top: 30px;
   width: 100%;
   height: 100%;
   /*background-color: black;*/
@@ -433,7 +432,11 @@ input[type="submit"]:hover {
 #modal-content{
   position: absolute;
   margin: auto;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -333px;
+
 }
 
 #close-galleri{
@@ -456,12 +459,12 @@ input[type="submit"]:hover {
   position: absolute;
   cursor: pointer;
   top: 50%;
-  right: 35px;
+  right: -35px;
   color: black;
   font-size: 40px;
   user-select: none;
 }
 
 #prev-galleri{
-  left: 35px;
+  left: -35px;
 }
