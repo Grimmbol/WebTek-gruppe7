@@ -283,6 +283,12 @@ h1 {
     max-width: 90%;
     margin: auto;
   }
+  .scrollbtn {
+    display: none;
+  }
+  section {
+    height: auto;
+  }
 }
 
 .video {
