@@ -11,7 +11,7 @@
 <body>
     <script src="script/header.js"></script>
 
-    <section id="bliMed" class="innhold">
+    <div id="bliMed" class="innhold">
         <h1>Bli med</h1>
         <h2>Vil du bli med i verdens kuleste spelemannslag? </h2>
         <p> Da er Snaustrinda noe for deg!</p>
@@ -21,20 +21,28 @@
         </p>
         <p>Vi har kontinuerlig opptak av nye medlemmer. For å søke opptak bør man være en habil kakebaker og gjerne beherske et mer eller mindre passende instrument. Snaustrinda øver på Låfte hver torsdag klokka 19:00 til 21:00.</p>
         <p>Fyll ut skjemaet under og send oss en melding!</p>
-    </section>
+    </div>
 
     <form class="forms">
         <div class="divForms">
             <h2>Skjema</h2>
-            Fult navn<br>
-            <input type="text" name="navn" placeholder="Ola Nordmann" pattern="^[A-ZÆØÅa-zæøå][A-ZÆØÅa-zæøå\s]*$" onkeydown="return event.key != 'Enter';" required><br>
-            E-post<br>
-            <input type="email" name="epost" placeholder="epost@adresse.com" onkeydown="return event.key != 'Enter';" required><br>
-            Telefon<br>
-            <input type="tel" name="telefon" placeholder="123 34 567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" onkeydown="return event.key != 'Enter';"><br>
-            Om deg<br>
-            <textarea name="melding" rows="8" cols="80" placeholder="Fortell kort om deg selv, hvorfor du søker, hvilket instrument du spiller ol." required></textarea><br>
-            <input type="submit" value="Send">
+            <label>
+                Fult navn<br>
+                <input type="text" name="navn" pattern="^[A-ZÆØÅa-zæøå][A-ZÆØÅa-zæøå\s]*$" onkeydown="return event.key != 'Enter';" required><br>
+            </label>
+            <label>
+                E-post<br>
+                <input type="email" name="epost" onkeydown="return event.key != 'Enter';" required><br>
+            </label>
+            <label>
+                Telefon (valgfritt)<br>
+                <input type="tel" name="telefon" minlength="8" maxlength="8" size="8" pattern="[0-9]+" onkeydown="return event.key != 'Enter';"><br>
+            </label>
+            <label>
+                Fortell kort om deg selv, hvorfor du søker, om du spiller et instrument ol.<br>
+                <textarea name="melding" rows="8" cols="80" required></textarea><br>
+            </label>
+            <input type="submit" value="Send inn skjema">
         </div>
     </form>
 
