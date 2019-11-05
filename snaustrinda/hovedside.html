@@ -2,7 +2,7 @@
 <html lang="no" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Snaustrinda</title>
+    <title>Snaustrinda spelemannslag</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
@@ -13,15 +13,15 @@
 
 
       <div class="mySlides">
-        <img id="Snaustrinda2017_bilde" src="bilder/slide_show/Snaustrinda2017.png" alt="snaustrinda">
+        <img id="Snaustrinda2017_bilde" src="bilder/slide_show/Snaustrinda2017.png" alt="Bilde av Snaustrinda spelemannslag">
       </div>
 
       <div class="mySlides">
-        <img id="mai" src="bilder/slide_show/17.mai.jpg" alt="123">
+        <img id="mai" src="bilder/slide_show/17.mai.jpg" alt="Bilde av Snaustrinda spelemannslag på 17. mai">
       </div>
 
       <div class="mySlides">
-        <img id="spelemannslag" src="bilder/slide_show/Spelemannslag.jpg" alt="234">
+        <img id="spelemannslag" src="bilder/slide_show/Spelemannslag.jpg" alt="Et annet bilde av Snaustrinda spelemannslag">
       </div>
 
       <!-- nest/forrige knapper -->
@@ -104,17 +104,21 @@
     <form class="forms" id="booking">
       <div class="divForms">
         <h1>Booking / spørsmål til oss</h1>
+        <label>
           Din e-post<br>
           <input type="email" name="epost" onkeydown="return event.key != 'Enter';" required><br>
+        </label>
+        <label>
           Når vil du booke oss? / hva lurer du på?<br>
           <textarea name="melding" rows="8" cols="80" required></textarea><br>
+        </label>
           <input type="submit" value="Send melding">
       </div>
     </form>
     <script src="script/footer.js"></script>
   </section>
 
-    <script src="script/script.js"></script>
+    <script src="script/slideshow.js"></script>
     <script src="script/navbar.js"></script>
   </body>
 </html>
