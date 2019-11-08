@@ -108,9 +108,10 @@ nav .aktiv{ /*siden man er på*/
 footer{
   background-color: #222222;
   color: white;
-  position: relative;
+  position: absolute;
   width: 100%;
   line-height: 2em;
+  height: 30%;
 }
 #opphavsrett{
   text-align: center;
@@ -191,13 +192,15 @@ footer a:hover, footer a:focus{
 #dots {
   position: relative;
   bottom: 7%;
+  left: 0;
+  right: 0;
 
 }
 .scrollbtn {
   width: 40px;
   position: absolute;
   display: block;
-  margin:auto;
+  margin: 0 auto;
   bottom: 3%;
   left:0;
   right:0;
@@ -383,6 +386,7 @@ video{
   display: block;
   background-color: #ff4d4d;
   padding: 15px;
+  height: 70%;
 
 }
 
