@@ -1,7 +1,8 @@
-// vis eller skjul meny når menyikon klikkes
+
 const meny = document.getElementById('meny')
 const ikon = document.getElementById('menyikon')
 
+// vis eller skjul meny når menyikon klikkes
 ikon.addEventListener('click', function(){
   if (meny.style.display){
     meny.style.display = null
@@ -16,7 +17,6 @@ window.onclick = function(e) {
   if (!e.target.closest('#menyikon')) {
     if (meny.style.display){
       meny.style.display = null
-      open = false
     }
   }
 }

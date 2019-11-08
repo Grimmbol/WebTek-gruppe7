@@ -27,6 +27,7 @@ a:hover{
   text-align: right;
 }
 
+/* Marit */
 /* header */
 header ul, footer ul{
   list-style-type: none;
@@ -50,12 +51,6 @@ nav a:hover{
   color: black;
   border-bottom: 4px solid #FF394D;
 }
-nav .aktiv{ /*siden man er på*/
-  border-bottom: 1px solid #FF394D;
-}
-#hjem:hover{
-  border-bottom: 0;
-}
 #hjem img{
   float: left;
 }
@@ -68,9 +63,6 @@ nav .aktiv{ /*siden man er på*/
   margin-left: 20px;
 }
 @media (max-width: 340px) {
-  header li{
-    margin: auto;
-  }
   #menyikon{
     margin-left: 10px;
   }
@@ -100,6 +92,9 @@ nav .aktiv{ /*siden man er på*/
   padding-bottom: 3em;
   border-bottom:  0;
 }
+nav .aktiv{ /*siden man er på*/
+  border-bottom: 1px solid #FF394D;
+}
 #menyikon:hover #meny{
   display: block;
 }
@@ -122,7 +117,6 @@ footer ul{
 }
 @media (max-width: 326px){
   footer ul{
-    padding-top: 100px;
     height: 112px;
   }
 }
@@ -142,11 +136,6 @@ footer a:hover, footer a:focus{
 
 
 
-#omOss1 {
-  width: 40%;
-  float: right;
-  padding: 20px 20px;
-}
 /* Thomas sin css */
 
 #Snaustrinda2017_bilde, #spelemannslag, #mai {
@@ -193,21 +182,6 @@ footer a:hover, footer a:focus{
   bottom: 7%;
 
 }
-.scrollbtn {
-  width: 40px;
-  position: absolute;
-  display: block;
-  margin:auto;
-  bottom: 3%;
-  left:0;
-  right:0;
-  padding:0.5%;
-  opacity: 0.5;
-}
-
-.scrollbtn:hover{
-  opacity: 1;
-}
 
 /* neste knapp til høyre*/
 .next {
@@ -231,6 +205,23 @@ footer a:hover, footer a:focus{
   background-color: #ff4d4d;
 }
 
+.scrollbtn {
+  width: 40px;
+  position: absolute;
+  display: block;
+  margin:auto;
+  bottom: 3%;
+  left:0;
+  right:0;
+  padding:0.5%;
+  opacity: 0.5;
+}
+
+.scrollbtn:hover{
+  opacity: 1;
+}
+
+
 section {
   margin: auto;
   height: 100vh;
@@ -239,6 +230,9 @@ section {
 }
 div {
   margin: auto;
+}
+#booking{
+  min-height: calc(100vh - 282px);
 }
 
 
@@ -249,7 +243,6 @@ h1 {
 }
 
 .om_snaustrinda {
-  /* padding: 5%; */
   margin: 5%;
 }
 
@@ -287,11 +280,15 @@ h1 {
     max-width: 90%;
     margin: auto;
   }
+  /* section blir for høy, fjern scroll */
   .scrollbtn {
     display: none;
   }
   section {
     height: auto;
+  }
+  #booking{
+    min-height: auto;
   }
 }
 
@@ -351,6 +348,7 @@ video{
 }
 
 @media (max-width: 440px){
+  /* tabell blir for bred, fjern oppdeling i kolonner */
   #arrangement{
     width: auto;
   }
@@ -402,7 +400,6 @@ video{
 }
 
 
-
 input[type="submit"]:hover {
   cursor: pointer;
 
@@ -440,7 +437,7 @@ https://www.w3schools.com/howto/howto_js_slideshow.asp */
   cursor: pointer;
 }
 
-.image > img:hover{
+.image > img:hover, .image:focus img{
   opacity: 0.7;
 }
 

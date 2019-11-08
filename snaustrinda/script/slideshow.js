@@ -26,3 +26,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// bytt bilde med piltaster
+document.addEventListener('keydown', function(event){
+  if (event.code == 'ArrowRight'){plusSlides(1)}
+  else if (event.code == 'ArrowLeft'){plusSlides(-1)}
+})

@@ -28,7 +28,7 @@ function openModal(n){
 
 function nextSlide(n){
     index += n;
-    
+
     if(index < 0){
         index = len - 1;
     }
@@ -49,3 +49,18 @@ function showSlide(n){
 
     modalImages[n].style.display = "block";
 }
+
+// bytt bilde med piltaster
+// lukk med escape
+document.addEventListener('keydown', function(event){
+  if (event.code == 'ArrowRight'){nextSlide(1)}
+  else if (event.code == 'ArrowLeft'){nextSlide(-1)}
+  else if (event.code == 'Escape'){closeModal()}
+})
+
+//forstørr bilde med Enter
+//virker kun på første bilde
+document.querySelector('.image').addEventListener('keydown', function(event){
+  if (event.code == 'Enter')
+  {openModal(1)}
+})
