@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <section class="slideshow-container">
+    <section id="slideshow-container">
       <!--Inspirasjon for slideshowet er tatt fra https://www.w3schools.com/howto/howto_js_slideshow.asp -->
       <script src="script/header.js"></script>
 
@@ -35,29 +35,29 @@
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
 
-      <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('.om_snaustrinda', 1000);">
+      <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('#om_snaustrinda', 1000);">
 
     </section>
 
     <div class="innhold">
 
-      <section class="om_snaustrinda">
+      <section id="om_snaustrinda">
         <h1>Vi er Snaustrinda spelemannslag.</h1>
         <h2>Vi holder til på samfundet</h2>
         <p id="om_tekst" lang="nn">Snaustrinda spelemannslag held til på Studentersamfundet i Trondheim, og har vanlegvis rundt 35 medlemmer. Me held konsertar, speler til dans og anna sprell, og tek sjølvsagt òg på oss oppdrag av altslags ulike slag. Om du vil hyra oss inn, ta gjerne kontakt via skjema på botn av sida eller via Facebook-sida vår</p>
         <img id="logo" src="bilder/snaustrinda-logo.png" alt="Snaustrindas logo">
-        <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('.video', 1000);">
+        <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('#video', 1000);">
       </section>
 
-      <section class="video">
+      <section id="video">
         <h1>Vi spiller konserter!</h1>
         <video controls poster="bilder/video-poster.jpg" height="430">
           <source src="video/kveldens-forste.m4v" type="video/mp4">
         </video>
-        <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('.se_på_oss', 1000);">
+        <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('#se_på_oss', 1000);">
       </section>
 
-      <section class="se_på_oss">
+      <section id="se_på_oss">
         <div>
           <h2 id="sePåOss">At vi er et aktivt spelemannslag <br> som spiller musikk bla bla </h2>
         </div>
