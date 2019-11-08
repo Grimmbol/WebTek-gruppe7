@@ -160,7 +160,7 @@ footer a:hover, footer a:focus{
 }
 
 /* Slideshow container */
-.slideshow-container {
+#slideshow-container {
   position: relative;
   margin: auto;
 }
@@ -248,7 +248,7 @@ h1 {
   padding: 2%;
 }
 
-.om_snaustrinda {
+#om_snaustrinda {
   /* padding: 5%; */
   margin: 5%;
 }
@@ -278,7 +278,7 @@ h1 {
   h1 {
     font-size: 2em;
   }
-  .om_snaustrinda h2{
+  #om_snaustrinda h2{
     text-align: center;
   }
   #logo{
@@ -295,7 +295,7 @@ h1 {
   }
 }
 
-.video {
+#video {
   margin: auto;
   margin-top: 20px;
 }
@@ -331,7 +331,7 @@ video{
     margin: auto;
     margin-bottom: 20px;
   }
-  .se_på_oss{
+  #se_på_oss{
     height: auto;
   }
 }
