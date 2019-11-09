@@ -102,7 +102,7 @@
     </div>
 
     <section id='kontaktskjema'>
-    <form class="forms" id="booking">
+    <form class="forms" id="booking" onsubmit="return false">
       <div class="divForms">
         <h1>Booking / spørsmål til oss</h1>
         <label>
@@ -113,12 +113,13 @@
           Når vil du booke oss? / hva lurer du på?<br>
           <textarea name="melding" rows="8" cols="80" required></textarea><br>
         </label>
-          <input type="submit" value="Send melding">
+          <input type="submit" onclick=klikketHovedside() value="Send melding">
       </div>
     </form>
     <script src="script/footer.js"></script>
   </section>
 
+    <script src="script/button.js"></script>
     <script src="script/slideshow.js"></script>
     <script src="script/navbar.js"></script>
     <script src="script/scroll.js"></script>

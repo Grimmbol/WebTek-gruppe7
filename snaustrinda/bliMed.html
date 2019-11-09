@@ -23,8 +23,7 @@
         <p>Fyll ut skjemaet under og send oss en melding!</p>
     </div>
 
-    <!-- NB: en knapp blir brukt for å   -->
-    <form class="forms">
+    <form class="forms" onsubmit="return false">
         <div class="divForms">
             <h2>Skjema</h2>
             <label>
@@ -43,10 +42,11 @@
                 Fortell kort om deg selv, hvorfor du søker, om du spiller et instrument ol.<br>
                 <textarea name="melding" rows="8" cols="80" required></textarea><br>
             </label>
-            <input type="submit" value="Send inn skjema">
+            <input type="submit" onclick=klikketBliMed() value="Send inn skjema">
         </div>
     </form>
 
+    <script src="script/button.js"></script>
     <script src="script/navbar.js"></script>
     <script src="script/footer.js"></script>
 </body>
