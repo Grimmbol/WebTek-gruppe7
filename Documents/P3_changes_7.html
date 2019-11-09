@@ -13,66 +13,71 @@
     <header>
       <h1> Gruppe 7 - P3</h1>
       <p>Med: Ulrik Kristoffersen, Thomas Immanuel, Simon Nymo, Marit Aasen og Kristian Fougner.</p>
-      <p>Publisert: 8.10.19</p>
+      <p>Publisert: 10.11.19</p>
     </header>
 
     <section>
-      <h2>Hvem, hva hvorfor</h2>
+      <h2>Kunde</h2>
       <p>Kunden vår er Snaustrinda Spelemannslag, representert ved Øystein Krogstie (sekretær
-        og dataansvarlig). Lenke til siden: <a href="http://folk.ntnu.no/maaasen/snaustrinda/hovedside.html">Snaustrinda Spelemannslag</a>.</p>
+        og dataansvarlig). Lenke til siden: <a href="../snaustrinda/hovedside.html">Snaustrinda Spelemannslag</a>.</p>
 
       <h2>Endringer</h2>
       <h3>Header og footer</h3>
-      <p>Headeren og footeren ble laget i samme html-dokument, fordi det var enklere. Plasseringen av menyen ble høyere,
-        slik at det blir kortere avstand når man vil trykke på lenkene. Navbar.js har blitt bruk til å vise og skjule menyen når ikonet blir klikket,
-        og til å markere hvilken underside man er på og bytte ut lenken med tekst.
-         Teksten på lenken til internsida ble endret for å se bedre ut.
+      <p>Headeren og footeren ble laget i samme html-dokument, fordi det var enklere. Plasseringen av menyen ble høyere enn
+        kanten på headeren, slik at det blir så lang avstand når man vil trykke på lenkene. Navbar.js har blitt brukt til
+         å vise og skjule menyen når ikonet blir klikket. Det markerer også hvilken underside man er på og deaktiverer lenken.
+         Teksten på lenken til internsida ble endret for å se bedre ut. Ikonene for sosiale medier er byttet ut med hvite.
       </p>
       <h3>Hovedside</h3>
       <p>Plasseringene på prikkene er flyttet til bunnen og bilde, og piler er plassert på sidene, for å la brukeren bla.
-        Teksten på sidene og overskriftene er endret flere steder for å gi mening. Delen med video og musikk </p>
+        Teksten på sidene og overskriftene er endret flere steder for å gi mening. Bilde- og videokreditt er fjernet, da det eies av Snaustrinda.
+         Delen med video og musikk er delt i to, slik at hver del er kort nok til en skjerm. Dette er for å få plass til
+         scrolle-pila neders på hver del. Arrangements-tabellen er flyttet til delen for musikk, fordi det var mer relevant.
+         Den er delt opp i rader og kolenner for å være mer oversiktlig, og rød bakgrunn i tabell-headeren for å gjjøre den markert og se bra ut.
+       </p>
+       <p>
+         Booking-delen har fått en overskrift og lengre tekst ved input, for å gjøre det enklere og forstå.
+         Den røde bakgrunnsfargen er endret til en mørkere for å få høy nok kontrast til å møte tilgjengelighets-krav.
+         Feltet for telefonnummer er fjernet, slik at det er færre felter å fylle ut for brukeren.
+         Eksempeltekst er fjernet.
+        Skjemaet, header og footer har fått samme bredde på innholdet som resten av siden, for å gi siden et mer helhetlig inntrykk.</p>
 
       <h3>Om oss</h3>
+      <p>Her har overskriften blitt mer utfyllende, og teksten har blitt skrevet. Vi har ikke satt inn bilder.</p>
 
       <h3>Bli med</h3>
+      <p>Utseendet på skjemaet her har fått samme endringer som booking-skjemaet. Det er flere felter for input.</p>
 
       <h3>Galleri</h3>
-
+      <p>Plasseringen av bildene er tilpasset størrelsesforholdene på bildene. Pilene er plassert utenfor bildet.
+      Header, footer og overskrivt blir også gjort uskarp.</p>
 
       <h2>Krav</h2>
 
-
       <h2>Arbeidsfordeling</h2>
-
-
         <table>
           <thead>
             <tr>
               <th>Fil(er)</th>
               <th>Beskrivelse</th>
-              <th>Hovedansvarlig</th>
+              <th>Ansvarlig</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>hovedside.html</td>
               <td>Nettsidens hovedside</td>
-              <td>Thomas</td>
+              <td>Thomas, Simon, Ulrik</td>
             </tr>
             <tr>
               <td>header.html</td>
-              <td>Felles header for <br> alle sider</td>
-              <td>Marit</td>
-            </tr>
-            <tr>
-              <td>footer.html</td>
-              <td>Felles footer for <br> alle sider</td>
+              <td>Felles header og footer <br> for alle sider</td>
               <td>Marit</td>
             </tr>
             <tr>
               <td>omOss.html</td>
-              <td>Info om Snaustrinda <br> og historie med bilder</td>
-              <td>Ulrik</td>
+              <td>Info om Snaustrinda <br> og historie</td>
+              <td>Ulrik, Thomas</td>
             </tr>
             <tr>
               <td>bliMed.html</td>
@@ -100,6 +105,16 @@
               <td>Thomas</td>
             </tr>
             <tr>
+              <td>pil.png</td>
+              <td>Bilde av pil</td>
+              <td>Ulrik</td>
+            </tr>
+            <tr>
+              <td>meny.png</td>
+              <td>Menyikon</td>
+              <td>Marit</td>
+            </tr>
+            <tr>
               <td>scroll.js</td>
               <td>Hovedsidens pil (se over)</td>
               <td>Ulrik</td>
@@ -121,8 +136,18 @@
             </tr>
             <tr>
               <td>navbar.js</td>
-              <td>Navigasjonsbar</td>
+              <td>Meny i navigasjonsbar</td>
               <td>Marit</td>
+            </tr>
+            <tr>
+              <td>header.js</td>
+              <td>Plasser header</td>
+              <td>Ulrik</td>
+            </tr>
+            <tr>
+              <td>footer.js</td>
+              <td>Plasser footer</td>
+              <td>Ulrik</td>
             </tr>
           </tbody>
         </table>
@@ -132,69 +157,64 @@
         <ul>
           <li>hovedside.html</li>
           <li>header.html</li>
-          <li>footer.html</li>
           <li>omOss.html</li>
           <li>bliMed.html</li>
           <li>galleri.html</li>
           <li>bilder/
             <ul>
-              <li>historie.jpg</li>
-              <li>omOss.jpg</li>
+              <li>snaustrinda-logo.png</li>
+              <li>video-poster.jpg</li>
               <li>galleri/
                 <ul>
                   <li>highres/
                     <ul>
-                      <li>bilde.jpg</li>
-                      <li>bilde2.jpg</li>
+                      <li>bilde1highres.jpg</li>
+                      <li>bilde2highres.jpg</li>
                       <li>...</li>
                     </ul>
                   </li>
                   <li>lowres/
                     <ul>
-                      <li>bilde.jpg</li>
-                      <li>bilde2.jpg</li>
+                      <li>bilde1lowres.jpg</li>
+                      <li>bilde2lowres.jpg</li>
                       <li>...</li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li>logo/
-                <ul>
-                  <li>logo.png</li>
-                </ul>
-              </li>
               <li>slideshow/
                 <ul>
-                  <li>slideshow1.jpg</li>
-                  <li>slideshow2.jpg</li>
-                  <li>slideshow3.jpg</li>
+                  <li>17.mai.jpg</li>
+                  <li>Snaustrinda2017.png</li>
+                  <li>Spelemannslag.jpg</li>
                 </ul>
               </li>
               <li>buttons/
                 <ul>
-                  <li>meny.gif</li>
-                  <li>pil.gif</li>
-                  <li>facebook.gif</li>
-                  <li>instagram.gif</li>
-                  <li>youtube.gif</li>
+                  <li>meny.png</li>
+                  <li>pil.png</li>
+                  <li>logo.png</li>
+                  <li>facebook.png</li>
+                  <li>instagram.png</li>
+                  <li>youtube.png</li>
                 </ul>
               </li>
             </ul>
           </li>
           <li>video/
             <ul>
-              <li>video.mp4</li>
-              <li>video.ogg</li>
-              <li>video.webm</li>
+              <li>kveldens-forste.m4v</li>
             </ul>
           </li>
           <li>script/
             <ul>
-              <li>pil.js</li>
+              <li>scroll.js</li>
               <li>galleri.js</li>
               <li>slideshow.js</li>
-              <li>booking.js</li>
+              <li>button.js</li>
               <li>navbar.js</li>
+              <li>header.js</li>
+              <li>footer.js</li>
             </ul>
           </li>
           <li>style.css</li>
