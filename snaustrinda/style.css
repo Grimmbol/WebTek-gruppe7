@@ -380,10 +380,11 @@ video{
 /* Simons! */
 /* forms css */
 .forms {
-  font-size: 14px;
-  color: white;
+  font-size: 16px;
+  color: black;
   display: block;
-  background-color: #ff4d4d;
+  font-weight: bold;
+  background-color: #ff6b6b;
   padding: 15px;
   height: 70%;
 
