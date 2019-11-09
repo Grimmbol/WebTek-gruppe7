@@ -348,7 +348,7 @@ video{
   padding: 12px;
   text-align: left;
   border: 1px solid black;
-  background-color: #ff4d4d;
+  background-color: #c44f4f;
   color: white;
 }
 
@@ -388,10 +388,10 @@ video{
 /* forms css */
 .forms {
   font-size: 16px;
-  color: black;
+  color: white;
   display: block;
   font-weight: bold;
-  background-color: #ff6b6b;
+  background-color: #c44f4f;
   padding: 15px;
 
 }
