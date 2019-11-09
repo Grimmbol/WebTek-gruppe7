@@ -327,7 +327,7 @@ video{
 #arrangement {
   text-align: left;
   float: left;;
-  width: 400px;
+  width: 25em;
   border: solid;
   border-collapse: collapse;
 }
