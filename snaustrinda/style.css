@@ -106,7 +106,6 @@ footer{
   position: absolute;
   width: 100%;
   line-height: 2em;
-  height: 30%;
 }
 #opphavsrett{
   text-align: center;
@@ -294,6 +293,11 @@ h1 {
   #booking{
     min-height: auto;
   }
+  #Snaustrinda2017_bilde, #spelemannslag, #mai {
+    width: 100%;
+    object-fit: fill;
+    height: auto;
+  }
 }
 
 #video {
@@ -385,7 +389,6 @@ video{
   display: block;
   background-color: #ff4d4d;
   padding: 15px;
-  height: 70%;
 
 }
 
