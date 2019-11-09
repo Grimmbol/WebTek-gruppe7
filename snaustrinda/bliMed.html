@@ -23,26 +23,26 @@
         <p>Fyll ut skjemaet under og send oss en melding!</p>
     </div>
 
-    <form class="forms" onsubmit="return false">
+    <form class="forms" onsubmit="return klikketBliMed()">
         <div class="divForms">
             <h2>Skjema</h2>
             <label>
                 Fult navn<br>
-                <input type="text" name="navn" pattern="^[A-ZÆØÅa-zæøå][A-ZÆØÅa-zæøå\s]*$" onkeydown="return event.key != 'Enter';" required><br>
+                <input type="text" name="navn" id="navnInput" pattern="^[A-ZÆØÅa-zæøå][A-ZÆØÅa-zæøå\s]*$" onkeydown="return event.key != 'Enter';" required><br>
             </label>
             <label>
                 E-post<br>
-                <input type="email" name="epost" onkeydown="return event.key != 'Enter';" required><br>
+                <input type="email" name="epost" id="emailInput" onkeydown="return event.key != 'Enter';" required><br>
             </label>
             <label>
                 Telefon (valgfritt)<br>
-                <input type="tel" name="telefon" minlength="8" maxlength="8" size="8" pattern="[0-9]+" onkeydown="return event.key != 'Enter';"><br>
+                <input type="tel" name="telefon" id="telefonInput" minlength="8" maxlength="8" size="8" pattern="[0-9]+" onkeydown="return event.key != 'Enter';"><br>
             </label>
             <label>
                 Fortell kort om deg selv, hvorfor du søker, om du spiller et instrument ol.<br>
-                <textarea name="melding" rows="8" cols="80" required></textarea><br>
+                <textarea name="melding" id="meldingInput" rows="8" cols="80" required></textarea><br>
             </label>
-            <input type="submit" onclick=klikketBliMed() value="Send inn skjema">
+            <input type="submit" value="Send inn skjema">
         </div>
     </form>
 
