@@ -255,9 +255,10 @@ h1 {
 
 #om_tekst {
   padding-top: 2em;
-  max-width: 200px;
+  max-width: 40%;
   display: inline-block;
   padding-bottom: 10%;
+  font-size: 20px;
 }
 
 #logo {
