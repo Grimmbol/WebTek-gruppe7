@@ -5,7 +5,7 @@ body{
   font-size: 16px;
 }
 a{
-  color: #FF394D;
+  color: #EB1423;
 }
 a:hover{
   color: darkred;
@@ -369,7 +369,7 @@ video{
   #arrangement th:first-child{
     display: block;
     border: none;
-    background-color: #ff4d4d;
+    background-color: #c44f4f;
   }
   #arrangement td{
     display: inline-block;
