@@ -46,3 +46,7 @@ table{
 h2{
     border-bottom: 2px solid black;
 }
+
+h3+p {
+    margin-top: -25px;
+}
