@@ -301,6 +301,9 @@ h1 {
     object-fit: fill;
     height: auto;
   }
+  .next, .prev{
+    font-size: 30px;
+  }
 }
 
 #video {
