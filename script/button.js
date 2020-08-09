@@ -3,13 +3,13 @@ let meldingInput = document.getElementById("meldingInput")
 let emailInput = document.getElementById("emailInput")
 let telefonInput = document.getElementById("telefonInput")
 
-let hovedsideNavnInput = document.getElementById("hovedsideNavnInput")
-let hovedsideMeldingInput = document.getElementById("hovedsideMeldingInput")
+let indexNavnInput = document.getElementById("indexNavnInput")
+let indexMeldingInput = document.getElementById("indexMeldingInput")
 
 function klikketHovedside() {
     alert("Melding sendt")
-    hovedsideNavnInput.value = ""
-    hovedsideMeldingInput.value = ""
+    indexNavnInput.value = ""
+    indexMeldingInput.value = ""
     return false
 }
 
