@@ -23,19 +23,19 @@
         <p>Fyll ut skjemaet under og send oss en melding!</p>
     </div>
 
-    <form class="forms" onsubmit="return klikketBliMed()">
+    <form class="forms"  method="post" action="bliMedKontakt.php">
         <div class="divForms">
             <h2>Skjema</h2>
             <label for="navnInput">Fult navn</label><br>
             <input type="text" name="navn" id="navnInput" pattern="^[A-ZÆØÅa-zæøå][A-ZÆØÅa-zæøå\s]*$" onkeydown="return event.key != 'Enter';" required><br>
             <label for="emailInput">E-post</label><br>
-            <input type="email" name="epost" id="emailInput" onkeydown="return event.key != 'Enter';" required><br>
+            <input type="text" name="epost" id="emailInput" onkeydown="return event.key != 'Enter';" required><br>
             <label for="telefonInput">Telefon (valgfritt)</label><br>
-            <input type="tel" name="telefon" id="telefonInput" minlength="8" maxlength="8" size="8" pattern="[0-9]+" onkeydown="return event.key != 'Enter';"><br>
+            <input type="text" name="telefon" id="telefonInput" minlength="8" maxlength="8" size="8" pattern="[0-9]+" onkeydown="return event.key != 'Enter';"><br>
             <label for="meldingInput">
                 Fortell kort om deg selv, hvorfor du søker, om du spiller et instrument ol.</label><br>
             <textarea name="melding" id="meldingInput" rows="8" cols="80" required></textarea><br>
-            <input type="submit" value="Send inn skjema">
+            <input type="submit" name="submit" value="Send inn skjema">
         </div>
     </form>
 

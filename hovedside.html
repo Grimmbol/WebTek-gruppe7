@@ -43,7 +43,7 @@
 
       <section id="om_snaustrinda">
         <h1>Vi er Snaustrinda spelemannslag.</h1>
-        <h2>Vi holder til på Studenteramfundet i Trondheim</h2>
+        <h2>Vi holder til på samfundet</h2>
         <p id="om_tekst" lang="nn">Snaustrinda spelemannslag held til på Studentersamfundet i Trondheim, og har vanlegvis rundt 35 medlemmer. Me held konsertar, speler til dans og anna sprell, og tek sjølvsagt òg på oss oppdrag av altslags ulike slag. Om du vil hyra oss inn, ta gjerne kontakt via skjema på botn av sida eller via Facebook-sida vår</p>
         <img id="logo" src="bilder/snaustrinda-logo.png" alt="Snaustrindas logo">
         <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('#video', 1000);">
@@ -51,18 +51,17 @@
 
       <section id="video">
         <h1>Vi spiller konserter!</h1>
-        <video controls poster="bilder/video-poster.jpg" height="430">
-          <source src="video/kveldens-forste.m4v" type="video/mp4">
-        </video>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wn2PYC2VCyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('#se_på_oss', 1000);">
       </section>
 
+
       <section id="se_på_oss">
         <div>
-          <h2 id="sePåOss">At vi er et aktivt spelemannslag <br> som spiller musikk bla bla </h2>
+          <h2 id="sePåOss">Vil du høre mer?</h2>
         </div>
 
-        <div id="arrangement">
+        <!--<div id="arrangement">
           <table>
             <tr>
               <th>Kommende arrangementer:</th>
@@ -90,10 +89,10 @@
               <td>15.12.2019 <br> kl.20:00</td>
             </tr>
           </table>
-        </div>
+        </div>-->
 
-        <div>
-          <iframe id="spotify" src="https://open.spotify.com/embed/album/3bsV7ZV3pkHl3FI8SHNSys" width="300" height="380" allow="encrypted-media"></iframe>
+        <div id="spotify">
+          <iframe  src="https://open.spotify.com/embed/album/3bsV7ZV3pkHl3FI8SHNSys" width="300" height="380" allow="encrypted-media"></iframe>
         </div>
         <img class="scrollbtn" src='bilder/buttons/pil.png' alt='Scroll ned pil' onclick="scrollDown('#kontaktskjema', 1000);">
 
@@ -102,14 +101,14 @@
     </div>
 
     <section id='kontaktskjema'>
-    <form class="forms" id="booking" onsubmit="return klikketHovedside()">
+    <form class="forms" id="booking" action="hovedside.php" method="post">
       <div class="divForms">
         <h1>Booking / spørsmål til oss</h1>
-        <label for="indexNavnInput">Din e-post</label><br>
-        <input type="email" name="epost" id="indexNavnInput" onkeydown="return event.key != 'Enter';" required><br>
-        <label for="indexMeldingInput">Når vil du booke oss? / hva lurer du på?</label><br>
-        <textarea name="melding" id="indexMeldingInput" rows="8" cols="80" required></textarea><br>
-        <input type="submit" value="Send melding">
+        <label for="hovedsideNavnInput">Din e-post</label><br>
+        <input type="text" name="epost" id="hovedsideNavnInput" onkeydown="return event.key != 'Enter';" required><br>
+        <label for="hovedsideMeldingInput">Når vil du booke oss? / hva lurer du på?</label><br>
+        <textarea name="melding" id="hovedsideMeldingInput" rows="8" cols="80" required></textarea><br>
+        <input type="submit" name="submit" value="Send melding">
       </div>
     </form>
     <script src="script/footer.js"></script>

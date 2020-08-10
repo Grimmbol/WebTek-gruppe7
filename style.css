@@ -27,6 +27,7 @@ a:hover{
   text-align: right;
 }
 
+
 /* Marit */
 /* header */
 header ul, footer ul{
@@ -310,12 +311,9 @@ h1 {
 #video {
   margin: auto;
   margin-top: 20px;
+  text-align: center;
 }
-video{
-  cursor: pointer;
-  max-width: 100%;
-  height: auto;
-}
+
 
 #sePåOss {
   text-align: center;
@@ -323,9 +321,9 @@ video{
 }
 
 #spotify {
-  margin-left: 1%;
-  float: right;
-  max-width: 100%;
+  /*margin-left: 1%;
+  float: right;*/
+  text-align: center;
 }
 
 #arrangement {
