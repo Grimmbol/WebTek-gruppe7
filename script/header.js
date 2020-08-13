@@ -13,7 +13,7 @@ document.write(`
       <ul id="meny">
        <li><a href="omOss.html">Om oss</a></li>
        <li><a href="galleri.html">Galleri</a></li>
-       <li><a href="bliMed.html">Bli med</a></li>
+       <li><a href="bliMed.html">Vert med</a></li>
       </ul></li>
     </ul>
    </nav>

@@ -137,9 +137,14 @@ footer a:hover, footer a:focus{
 
 
 
+/* Øystein sin css */
+#akkreditering {
+    width: 70%;
+}
+
 /* Thomas sin css */
 
-#Snaustrinda2017_bilde, #spelemannslag, #mai {
+#Snaustrinda2019_bilde, #spelemannslag, #mai {
   width: 100%;
   object-fit: cover;
   height: 80vh;
