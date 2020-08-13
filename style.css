@@ -253,6 +253,9 @@ h1 {
   padding: 2%;
 }
 
+h3 {
+  text-align: center;
+}
 #om_snaustrinda {
   /* padding: 5%; */
   margin: 5%;
@@ -303,7 +306,7 @@ h1 {
   #booking{
     min-height: auto;
   }
-  #Snaustrinda2017_bilde, #spelemannslag, #mai {
+  #Snaustrinda2019_bilde, #spelemannslag, #mai {
     width: 100%;
     object-fit: fill;
     height: auto;
@@ -371,6 +374,14 @@ h1 {
   padding: 12px;
   text-align: left;
   border: 1px solid;
+}
+
+#open_øvelse1:hover {
+  background-color: blue;
+}
+
+#open_øvelse1:hover {
+  background-color: blue;
 }
 
 @media (max-width: 440px){
