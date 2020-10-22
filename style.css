@@ -142,8 +142,14 @@ footer a:hover, footer a:focus{
     width: 70%;
 }
 
-/* Thomas sin css */
+.karusellbilde {
+    width: 100%;
+    object-fit: cover;
+    height: 80vh;
+}
 
+/* Thomas sin css */
+/* Denne burde bruke en felles klasse, ikke ID*/
 #Snaustrinda2019_bilde, #spelemannslag, #mai {
   width: 100%;
   object-fit: cover;
